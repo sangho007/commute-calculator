@@ -22,3 +22,14 @@ npm run dev
 ```
 
 검증 빌드는 `npm test`로 실행할 수 있습니다.
+
+## GitHub Pages 배포
+
+이 저장소를 GitHub의 `main` 브랜치에 올리고 저장소 설정의 **Pages → Source**를
+**GitHub Actions**로 선택하면 포함된 워크플로가 정적 웹앱을 자동 배포합니다.
+
+GitHub Pages용 정적 결과물은 다음 명령으로 별도 확인할 수 있습니다.
+
+```bash
+npm run build:github
+```
