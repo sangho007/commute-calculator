@@ -267,9 +267,12 @@ h1 {
 
 .fill-button {
   height: 45px;
+  padding: 0 6px;
   color: #ffffff;
   font-size: 14px;
   font-weight: 800;
+  line-height: 1;
+  white-space: nowrap;
   background: #1c704f;
   border: 0;
   border-radius: 12px;
@@ -457,7 +460,7 @@ h1 {
   }
 
   .day-row {
-    grid-template-columns: 56px minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: 64px minmax(0, 1fr) minmax(0, 1fr);
     gap: 10px;
     padding: 15px;
   }
@@ -538,7 +541,7 @@ h1 {
   }
 
   .day-row {
-    grid-template-columns: 45px minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: 64px minmax(0, 1fr) minmax(0, 1fr);
   }
 
   .day-badge > span {
